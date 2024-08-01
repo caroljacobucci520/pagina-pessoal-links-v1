@@ -1,0 +1,14 @@
+{
+  "name": "caroljacobucci.dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "",
+  "author": "Carol Jacobucci <caroline.jacobucci20@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tailwindcss -i ./tailwind.css -o ./styles.css --jit --content \"./**/*.html\""
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.7"
+  }
+}
