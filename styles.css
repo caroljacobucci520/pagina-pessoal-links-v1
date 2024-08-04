@@ -665,7 +665,7 @@ Ensure the default browser behavior of the `hidden` attribute.
       padding: 1rem;
   }
   img {
-      width: 150;
+      width: 150px;
   }
 }
 /* Estilos para telas médias */
@@ -705,4 +705,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   img {
       width: 300px;
   }
+}
+/*
+arredondamento a imagem*/
+img {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+img:hover {
+  transform: scale(1.05);/* Aumentar ligeiramente a imagem no hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Aumentar a sombra no hover */
 }
